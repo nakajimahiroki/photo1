@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product-small-img{
+    float: left;
+}
+
+.product-small-img img{
+    height: 92px;
+    width: 55px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+    padding-left:10px;
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+
+
+.product{
+    font-family: serif;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: normal;
+    box-shadow: 0 0 20px 4px rgba(0,0,0,0.4);
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #eeced2;
+    
+}
+
+.img-container{
+    float: right;
+}
+
+.img-container img{
+    height: 500px;
+    width: 350px;
+    padding: 10px;
+}
